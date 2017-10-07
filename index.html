@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+    <title>The Code Empire Assets</title>
+</head>
+
+<body>
+    <h1 style="text-align:center;">
+        CODE EMPIRE ASSETS
+    </h1>
+    <div class="logo1">
+        <img src="The-Code-Empire-Logo.png" alt="The Code Empire Logo" />
+    </div>
+    <div style="display:flex; justify-content:center;align-items:center;">
+        <div class="Group_1">
+            <div class="Rectangle_1">
+
+            </div>
+            <div class="Rectangle_2">
+
+            </div>
+            <div class="Rectangle_3">
+
+            </div>
+            <div class="CE">
+                CE
+            </div>
+        </div>
+        <div style="display:inline-block;">
+            <h2 style="font-size:4em;">THE CODE EMPIRE</h2>
+        </div>
+    </div>  
+    <div class="flex-cont">
+        <div class="flex-item">
+            THE PRIMARY COLOR IS : <span class="flex-span" style="color:#144753;"> #144753</span>
+        </div>
+        <div class="flex-item">
+            THE SECONDARY COLOR IS: <span class="flex-span" style="color:#072C35;"> #072C35</span>
+        </div>
+        <div class="flex-item">
+            THE TERTIARY COLOR IS: <span class="flex-span" style="color:#000;"> #000000</span>
+        </div>
+    </div>
+
+    <div class="flex-cont" style="background-color:white;">
+        <div class="flex-item" style="color:#144753;margin-bottom:2vw;">
+            BUTTONS:
+        </div>
+        <div class="flex-item">
+            <button class="btn">
+                Button1
+            </button>
+            <button class="btn2">
+                Button2
+            </button>
+        </div>
+    </div>
+
+    <div class="flex-cont">
+        <div class="flex-item" style="margin-bottom:2vw;">
+            BUTTONS IN DARK:
+        </div>
+        <div class="flex-item">
+            <button class="btn">
+                    Button1
+            </button>
+            <button class="btn2">
+                    Button2
+            </button>
+        </div>
+    </div>
+
+    <div class="flex-cont">
+        <div class="flex-item" style="margin-bottom:2vw;">
+            FORMS:
+        </div>
+        <div class="flex-item">
+            <form style="display:flex;">               
+                <label for="input1">NAME:</label>
+                <div style="display:inline-block; margin-left:4vw;">                   
+                    <input type="text" name="input1" id="input" value="" placeholder="Name.." class="input" onfocus="focused()" onfocusout="nofocus()">
+                    <div class="underline"><div class="underline2" id="u2"></div></div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+</body>
+<script>
+    function focused(){
+        var underlineStyle = document.getElementById('u2').style;
+        underlineStyle.width = "100%";
+    }
+
+    console.log(document.getElementById('input').style.color);
+    
+
+    function nofocus(){
+        document.getElementById('u2').style.width = "0";
+    }
+</script>
+
+</html>
